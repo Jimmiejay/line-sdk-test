@@ -1,0 +1,45 @@
+.profileContainer {
+    display: flex;
+}
+
+.profileContainer .profileBox {
+    flex: 1;
+    min-width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom, #5D0E41, #B9EDDD);
+}
+.profileContainer .profileTxt{
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #B9EDDD;
+    
+    margin: 0 0 0 15px;
+}
+
+.profileContainer .profileImg{
+    align-items: center;
+    justify-items: center;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 100px;
+    margin: 10px 10px 0px 200px ;
+}
+
+.profileContainer .profileCard{
+    align-items: center;
+    justify-content: center;
+    /* background-color:  brown; */
+    width: 550px;
+    height: 250px;
+    border-radius: 20px;
+    /* background-image: linear-gradient(to bottom, #990000, #FF0000); */
+    /* background-image: linear-gradient(to bottom, #252A34, #252A34); */
+    background-color: #5D0E41;
+}
+
